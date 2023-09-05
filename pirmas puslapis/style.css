@@ -1,0 +1,27 @@
+h1 {
+
+    border-width: 50px;
+    border-color: blueviolet;
+    border-radius: 50px;
+    background-color: blue;
+    padding: 50px;
+    text-align: center;
+    
+
+}
+
+figcaption {
+
+    background-color: brown;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: center;
+    border-radius: 20px;
+    text-shadow: 50cqw;
+    text-decoration: dotted;
+    border-bottom-color: black;
+    margin: 50px;
+}
+section, article, aside, footer, header, nav {
+    display: block; 
+}

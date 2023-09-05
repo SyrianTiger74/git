@@ -1,0 +1,72 @@
+.blue {
+    background-color: blue;
+    
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+    
+}
+
+.orange {
+    background-color: orange;
+    
+}
+
+.pink {
+    background-color: pink;
+    
+}
+
+.purple {
+    background-color: purple;
+    
+}
+
+.container  {
+    background-color: beige;
+    height: 600px;
+    width: 600px;
+}
+
+.container-1 .child:nth-child(1) {
+    width: 200px;
+    height: 200px;
+}
+
+.container-1 .child:nth-child(2) {
+    width: 400px;
+    height: 200px;
+}
+
+.container-1 .child:nth-child(3) {
+    width: 400px;
+    height: 200px;
+}
+
+.container-1 .child:nth-child(4) {
+    width: 200px;
+    height: 200px;
+}
+
+.container-1 .child:nth-child(5) {
+    width: 200px;
+    height: 200px;
+}
+
+.container-1 .child:nth-child(6) {
+    width: 400px;
+    height: 200px;
+}
+
+.container-1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+

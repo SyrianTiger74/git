@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Edu+SA+Beginner:wght@700&family=Lumanosimo&family=Open+Sans&family=Playfair+Display&family=Raleway:wght@400;700&display=swap');
+
+body{
+    font-family: "Open Sans", sans-serif;
+}
+
+
+
+
+
+
+.flex-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
+h1, h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    
+    
+}
+
+p{
+    line-height: 1.8;
+    color:hsl(238, 22%, 44%);
+    
+}
+
+li button {
+    color: hsl(238, 22%, 44%);
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    border: none;
+    background-color: white;
+    
+}
+
+.link {
+    color: hsl(170, 45%, 43%);
+}
+
+.cta{
+    background-color: hsl(238, 22%, 44%);
+}
+
+
+footer{
+    background-color: hsl(243, 87%, 12%);
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+
+}
+
+.flex-2 {
+    padding: 10px;
+    display: flex;
+    column-gap: 20px;
+    
+}
+
+.flex-3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 20px;
+    margin-bottom: 500px;
+}
+
+button.flex-3-button {
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}       
+        
+
+img.avatar-testimonial {
+    border-radius: 90px;
+    width: 65px;
+    height: 65px;
+}
+
+section.flex-4 {
+    display: flex;
+}
+
+form {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    align-items: center;
+}
+
+section.cta {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+p.flex-5 {
+    color: white;
+}
+
+button {
+    background-color: blue;
+    color: white;
+}
+
+.box{
+    width: 484px;
+    height: 322px;
+    padding: 10px;
+    border: 5px solid gray;
+    box-sizing: border-box;
+    
+}
+
+aside {
+    display: flex;
+}
+
+a {
+    color: hsl(170, 45%, 43%);
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+@media (min-width:1024px) {
+  p {
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,87 @@
+body {
+    background-image: url("ep_naturalblack.png");
+}
+
+.wrapper {
+   max-width: 50rem;
+   margin: 0 auto;
+}
+
+
+header{
+    background-color: rgb(101, 5, 95);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8rem;
+}
+
+header img {
+    height: 8rem;
+}
+
+header nav a:not(:last-child) {
+    margin-right: 1rem;
+}
+
+header nav a {
+    color: #000;
+    text-decoration: none;
+    
+}
+
+header nav a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+main {
+    background-color: white;
+    padding: 1rem;
+    
+    
+    display: flex;
+}
+
+main section:first-child {
+     flex: 2;
+     padding-right: 0.5rem;
+}
+
+main section:last-child {
+    flex: 3;
+    padding-left: 0.5rem;
+
+}
+
+main .right{
+    text-align: right;
+}
+
+main section:last-child img {
+    max-width: 55%;
+    float: left;
+    padding-right: 0.5rem;
+}
+
+footer{
+    text-align: right;
+    font-size: 0.8rem;
+    padding: 0.5rem 0;
+    font-family: 'Edu SA Beginner', cursive;
+    color: rgb(82, 82, 82);
+
+}
+
+p,
+h2,
+button,
+a,
+footer {
+    font-family: 'Edu SA Beginner', cursive;
+}
+
+button{
+    border-radius: 5px;
+}
+        

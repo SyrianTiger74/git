@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Edu+SA+Beginner:wght@700&family=Lumanosimo&family=Playfair+Display&display=swap');
+
+ *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+:root{
+    --moderate-violet : hsl(263,55%,52%);
+    --dark-grayish-blue : hsl(217,19%,35%); 
+    --dark-blackish-blue :hsl(219,29%,14%);
+    --gray : hsl(0,0%,81%);
+    --grayish-blue:hsl(210,46%,95%);
+}
+
+body{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    background-color:var(--grayish-blue) ;
+}
+
+p{
+   font-size: 19px; 
+   color: var(--gray);
+   
+}
+
+.container{
+   display: flex; 
+   padding: 1em 10%;
+   margin-top: 3rem;
+   justify-content: space-between;
+
+}
+
+.testimonials{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.testimonials--big{
+    position: relative;
+    background-color: var(--moderate-violet);
+    padding: 1.5rem;
+    width: 68%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.info{
+    display: flex;
+}
+
+.info .img{
+    width: 35px;
+    margin-right: .5rem;
+}
+
+.info .img img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.name{
+    color: white;
+}
+
+.name h3{
+ font-size: 15px;   
+}
+
+.name p{
+  color: white;
+  font-size: 10px;
+}
+
+.view .bold{
+    margin: 10px 0px;
+    font-weight: 600;
+    color: white;
+}
+
+.testimonials--small{
+    background: var(--dark-grayish-blue);
+    width: 30%;
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.testimonial{
+    background-color: white;
+    color: black;
+    width: 25%;
+    border-radius: 10px;
+    padding: 1.5em;
+}
+
+.white{
+    background-color: white;
+}
+
+.white,
+.white .name,
+.white p,
+.white .name p,
+.white .view .bold{
+    color: black;
+}
+
+
+
+

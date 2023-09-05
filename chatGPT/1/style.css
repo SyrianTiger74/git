@@ -1,0 +1,88 @@
+/* Base style for link buttons */
+.button-link,
+.button-link:hover {
+  display: block;
+  padding: 15px 30px;
+  margin: 10px;
+  background-color: greenyellow; /* Default button background color */
+  color: #fff; /* Default button text color */
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Hover effect for link buttons */
+.button-link:hover {
+  background-color: blueviolet; 
+  
+}
+
+
+/* Additional styles for different link buttons */
+.button-link-1 {
+  background-color: #007bff;
+  padding: 10px 10px 10px 10px;
+  
+  
+}
+
+.button-link-2 {
+  background-color: #6c757d;
+  padding: 10px 10px 10px 10px;
+ 
+}
+
+.button-link-3 {
+  background-color: #28a745;
+  padding: 10px 10px 10px 10px;
+}
+
+.button-link-4 {
+  background-color: #dc3545;
+  padding: 10px 10px 10px 10px;
+}
+
+/* Base style for button links */
+.link-button,
+.link-button:hover {
+  display: block;
+  padding: 15px 30px;
+  margin: 10px;
+  background-color: transparent; /* Transparent background to look like a link */
+  color: #007bff; /* Default link text color */
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  border: 2px solid #007bff; /* Add a border to look like a button */
+  cursor: pointer;
+}
+
+/* Hover effect for button links */
+.link-button:hover {
+  background-color: #007bff; /* Change the color for hover effect */
+  color: #fff; /* Change text color on hover */
+}
+
+/* Additional styles for different button links */
+.link-button-1 {
+  border-color: #007bff;
+  color: #007bff;
+
+}
+
+.link-button-2{
+  border-color: #6c757d;
+  color: #6c757d;
+}
+
+.link-button-3 {
+  border-color: #28a745;
+  color: #28a745;
+}
+
+.link-button-4 {
+  border-color: #dc3545;
+  color: #dc3545;
+}

@@ -1,0 +1,46 @@
+.container-1{
+    background-color: grey;
+    display: grid;
+    width: 600px;
+    height: 600px;
+    grid-template-columns: repeat(5 1fr) ;
+    grid-template-rows: repeat(5 1fr);
+}
+
+.red{
+    background-color: red;
+    grid-column: 1/6;
+    grid-row: 1/5;
+}
+
+.blue{
+    background-color: blue;
+    
+}
+
+
+
+.green{
+    background-color: green;
+    grid-column: ;
+    grid-row: ;
+}   
+
+
+.orange{
+    background-color: orange;
+    grid-column: ;
+    grid-row: ;
+}
+
+.pink{
+    background-color: pink;
+    grid-column: ;
+    grid-row: ;
+}
+
+.violet{
+    background-color: violet;
+    grid-column:;
+    grid-row: ;
+}

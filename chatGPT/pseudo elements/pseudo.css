@@ -1,0 +1,45 @@
+.box {
+    position: relative;
+    width: 200px;
+    height: 100px;
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    line-height: 100px;
+  }
+  
+  .box::before {
+    content: "pick";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #28a745;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    opacity: 1; /* Initially visible */
+    transition: opacity 0.3s ease; /* Add a smooth transition */
+  }
+  
+  .box::after {
+    content: "a boo";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #dc3545;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    opacity: 1; /* Initially visible */
+    transition: opacity 0.3s ease; /* Add a smooth transition */
+  }
+  
+  /* Hover effects */
+  .box:hover::before,
+  .box:hover::after {
+    opacity: 0; /* Disappear on hover */
+  }

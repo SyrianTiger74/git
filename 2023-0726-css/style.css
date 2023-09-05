@@ -1,0 +1,124 @@
+h1 {
+
+    font-family: 'Roboto', sans-serif;
+
+    color: rgb(224, 213, 191);
+    background-color: rgb(247, 250, 247);
+/*border*/
+    border-top-color:black;
+    border-top-style: dashed;
+    border-top-width: 10px;
+
+    border-bottom-color:black;
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+
+    border-right-style:dashed;
+    border-right-color: aqua;
+    border-right-width: 15px;
+    
+
+    
+    border-left-style:groove;
+    border-left-color: bisque;
+    border-left-width: 20px;
+
+    border-style: dashed;
+    border-width: 5px;
+
+    /*padding*/
+    padding-top: 10px;
+    padding-right: 100px;
+    padding-bottom: 5px;
+    padding-left: 100px;
+padding: 50px 50px 50px 50px;
+    margin-top: 50px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+
+    border-radius: 50px 50px 50px 50px;
+text-transform: capitalize;
+
+}
+p{
+
+    *, *::before, *::after {
+
+        box-sizing: border-box;
+      
+      }
+    box-shadow: 20px 20px 20px 20px black;
+    background-color: rgb(22, 59, 29);
+    font-family: 'Lora', serif;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 3px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+    border-radius: 15px;
+    border-width: 20px;
+    border-color: antiquewhite;
+    border-width: 50px;
+
+}
+
+h1 {
+
+    text-align: center;
+    text-decoration-line: inherit;
+
+}
+
+h2 {
+    text-align: center;
+
+    
+    font-family: 'Roboto', sans-serif;
+
+    color: rgb(224, 213, 191);
+    background-color: rgb(43, 82, 43);
+/*border*/
+    border-top-color:black;
+    border-top-style: dashed;
+    border-top-width: 10px;
+
+    border-bottom-color:black;
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+
+    border-right-style:dashed;
+    border-right-color: aqua;
+    border-right-width: 15
+px;
+
+    
+    border-left-style:groove;
+    border-left-color: bisque;
+    border-left-width: 20px;
+
+    border-style: dashed;
+    border-width: 5px;
+
+    /*padding*/
+    padding-top: 10px;
+    padding-right: 100px;
+    padding-bottom: 5px;
+    padding-left: 100px;
+padding: 50px 50px 50px 50px;
+    margin-top: 50px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+
+    border-radius: 50px 50px 50px 50px;
+text-transform: capitalize;
+
+}
+
+p span {
+
+    text-decoration-style:dotted ;
+
+}

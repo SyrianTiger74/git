@@ -1,0 +1,28 @@
+p.green { 
+    color: green;
+}
+p#blue {
+    color: yellow;
+    background-color: red;
+}
+
+h2 {
+    color: rgb(128, 0, 19);
+}
+h1 {
+    background-color: blueviolet;
+}
+* {
+    background-color: yellow;
+}
+
+p  {
+    background-color: gray;
+
+}
+h1,h2 {
+    font-style: italic;
+}
+li p {
+    font-style: italic;
+}
